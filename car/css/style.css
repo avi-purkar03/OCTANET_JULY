@@ -1,0 +1,450 @@
+.header{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 700px;
+    }
+.header h1{
+    position: relative;
+    top: 250px;
+    width: 350px;
+    left: 960px;
+    padding: 25px 10px;
+    border: solid;
+    text-align: center;
+    text-shadow: 1px 1px 2px;
+    border-style:double;
+    border-color: black;
+    border-width: 5px;
+    
+}
+
+.header h2 a:hover{
+    color: red;
+}
+
+.header h2{
+    position: relative;
+    top: 270px;
+    width: 350px;
+    left: 970px;
+    text-align: center;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    height: 30px;
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    left:5px;
+    z-index: 200;
+    
+}
+.nav{
+    display:flex;
+    justify-content: right;
+    height: 50px;
+    background-color: rgb(85, 87, 88);
+    position:fixed;
+    width: 100%;
+    z-index: 99;
+
+    
+}
+
+.nav a{
+    scroll-behavior: smooth;
+}
+.hhh{
+    position: static;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+}
+.nav a{
+    padding: 10px 20px ;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(248, 243, 243);
+    
+
+}
+
+.nav a:hover{
+    color: rgb(248, 6, 6);
+    transform: scale(1.4);
+    
+}
+
+.uc{position: relative;
+    text-align: center;
+   
+    height: 105px;
+    
+   
+}
+.uc h1{
+    position: relative;
+    top: 90px;
+}
+
+.uccar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 550px;
+    
+}
+
+.box{
+    position: relative;
+    top: 25%;
+    border:solid black;
+    height:300px;
+    width: 30%;
+    margin: 10px;
+}
+
+.box p{
+    
+    text-align: center;
+}
+
+.box img{
+    width: 90%;
+    
+}
+
+.box p img{
+    width: 10px;
+    justify-content: left;
+    
+}
+
+.abc{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    box-shadow:5px 1px 5px;
+}
+
+.box1{
+    position: relative;
+    height:400px;
+    width: 100%;
+    top: 55px;
+    margin: 5px;
+    
+    
+}
+
+.box1 video{
+    margin: 0px;
+    width: 100%;
+    
+}
+
+.box1 h1{
+    margin-top: 20px;
+    font-family:'Times New Roman';
+    font-weight: 600;
+    font-size:xx-large;
+    
+}
+
+
+
+.xyz{
+    display: flex;
+    border: solid black;
+    height:100px;
+    width:100px;
+    
+}
+
+.box2{
+    border: solid black;
+}
+
+.cinfo{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+    
+}
+
+.box3{
+    
+    height:295px;
+    
+    margin: 10px;
+    
+}
+
+.box3 a{
+    border: solid red;
+    border-width: 2px;
+    color:rgb(245, 243, 242);
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(255, 94, 0, 0.726);
+    
+      
+}
+
+.box3 a:hover{
+    border-color: black;
+    color: rgb(12, 67, 138);
+    
+}
+
+
+.box3 p{ 
+    padding-bottom: 15px;
+    padding-top: 25px;
+    margin-left: 5px;  
+    margin-bottom: 10px;  
+    text-align: justify;
+}
+
+#alert{
+    margin-top: 50px;
+}
+
+.spec{
+    height:180px;
+    border-style:outset;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.spec h1{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.specimg img{
+    height: 90px;
+    padding-inline: 80px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.spec p{
+   margin: 0px;
+    padding-inline: 105px;
+    display:inline-flex;
+}
+.box:hover{
+    transform: scale(1.1);
+    border-color: rgba(233, 82, 11, 0.89);
+}
+
+ .about{ height: 650px;
+    
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+ }
+
+ .about h1{
+    position: relative;
+    top: 110px;
+    left: 25px;
+    font-size: 55px;
+    width: 700px;
+    line-height: 100px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-weight: 900;
+ }
+ .about h2{
+    position: relative;
+    top: 170px;
+    left: 120px;
+    color:white ;
+    background-color: black;
+    width: 250px;
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .about a{
+    position: relative;
+    top: 190px;
+    left: 180px;
+    border: solid rgb(29, 115, 228);
+    color: azure;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: larger;
+    background-color: rgb(35, 102, 245);
+ }
+ .about a:hover{
+    background-color: blue;
+ }
+
+ .rec{
+    text-align: center;
+    position: relative;
+    height: 120px;
+ }
+
+ .rec h1{
+    position: relative;
+    top: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .recbox{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+ }
+
+ .box5{
+    border:solid rgb(153, 152, 152);
+    width: 25%;
+    margin: 15px;
+    box-shadow: 5px 5px 10px;
+ }
+ 
+ .box5:hover{
+    transform: scale(1.02);
+    transition: all 0.4s;
+ }
+
+ .box5 img{
+    width: 100%;
+    height: 230px;
+ }
+
+ .box5 h3{
+    position: relative;
+    width: 300px;
+    top: 40px;
+    left: 30px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+
+
+ }
+
+ .box5 h2{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    width: 350px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;    
+ }
+ .box5 a{
+    position: relative;
+    top: 90px;
+    left: 20%;
+    font-size: 20px;
+    border: solid;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35, 102, 245);
+}
+.box5 a:hover{
+   background-color: blue;
+}
+
+.footer{
+    height: 150px;
+    background-color: rgba(237, 236, 245, 0.877);
+
+}
+
+.footer img{
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 50%;
+}
+
+.footer p{
+    
+    position: relative;
+    top: 40px;
+    left: 30px;
+    text-align: center;
+    
+    
+}
+.contact{
+    margin-top: 20px;
+    height: 700px;
+    width: 100%;
+    border:  saddlebrown;
+    background-color: silver;
+    background-image: url(../img/contact.jpg);
+    background-size: cover;
+    
+}
+
+
+
+.contact form{
+    position: relative;
+    top: 200px;
+    border: solid;
+    width: 500px;
+    justify-content: center;
+    padding: 30px;
+    left: 750px;
+    border-color: rgb(172, 171, 170);
+    backdrop-filter:blur(15px);
+    box-shadow: 20px 20px 30px ;
+}
+
+.form label{
+    font-size: large;
+    padding: 5px;
+    margin: 10px;
+    color: rgb(253, 253, 253);
+}
+
+.form input{
+    font-size: large;
+    padding: 5px;
+    margin: 10px;
+    
+
+}
+
+#bt{
+    position: relative;
+    left: 40%;
+    border-radius: 20%;
+    background-color: rgb(129, 129, 124);
+}
+#bt:hover{
+    background-color: goldenrod;
+}
+
+
+.contact h2{
+    font-size: 40px;
+    position: relative;
+    top: 130px;
+    left:850px;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px;
+    width: 350px;
+    text-align: center;
+    font-style: italic;
+}
